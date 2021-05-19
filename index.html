@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:ital,wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="shortcut icon" href="/dist/img/pearl1.ico" type="image/x-icon" />
+    <title>Indigo Pearl Restaurant</title>
+  </head>
+
+
+  <body>
+    <!--Restaurant AREA -->
+    <div class="restaurant-area">
+        <div class="top-header " id="top-header">
+          <div class="container">
+            <header>
+              <img src="dist/img/pearlLogo.svg" alt="logo" >
+                <button class="restaurant-area__reservations">
+                  <i class="material-icons">bookmark_border</i>
+
+                  reservations
+                </button>
+            </header>
+          </div>
+        </div>
+
+      <div class="container">
+        <section class="booking-section">
+          <h1 id="main-heading" class="main-heading">
+             <p> A pearl among seafood restaurants</p>
+           
+          </h1>
+          <button class="restaurant-area__adventure-button">
+            adventure
+            <i class="material-icons">play_circle_filled</i>
+          </button>
+  
+          <form  class="restaurant-area__booking">
+            <div class="restaurant-area__booking-inputs">
+              <div class="restaurant-area__booking-input">
+                <label for="check-in">Reservation date</label>
+                <input type="date" id="check-in" value="2021-01-20" min="2021-01-20">
+              </div>
+
+              <div class="restaurant-area__booking-input">
+                <label for="check-out">Amount of tables</label>
+                <select name="personNumber" id="persons">
+                  <option value="1">1 table </option>
+                  <option value="2">2 tables</option>
+                  <option value="4">more..</option>          
+                </select>
+              </div>
+
+              <div class="restaurant-area__booking-input">
+                <label for="persons">Persons</label>
+                <select name="personNumber" id="persons">
+                  <option value="1">1 adult </option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">more..</option>
+                </select>
+              </div>
+            </div>
+  
+            <button class="restaurant-area__booking-button">Book now</button>
+          </form>
+        </section>
+      </div> 
+    </div>
+
+    <!-- Best dishes -->
+
+    <section>
+      <div class="main-heading--dishes-section">
+        <div class="section-name--dishes">menu</div>
+        <h2>Top dishes of the week!</h2>
+        <h3>*read our virtual menu for more details</h3>
+      </div>
+      <section class="container-dishes"> 
+    
+    
+
+        <div class="container-dishes__card-dish">
+          <div class="imgBox">
+            <img src="dist/img/dish2.jpg" alt="dish1">
+          </div>
+  
+        <div class="container-dishes__card-dish-details--header">
+            <h2>Fahrenheit</h2>
+        </div>
+        <div class="container-dishes__card-dish-details--text">
+          <ul>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos quis laboriosam consequatur accusantium reiciendis illum voluptatibus, est nesciunt temporibus! Nemo accusantium vero repellendus sapiente delectus praesentium, quisquam enim et!</p>
+       </div> 
+      </div>
+    
+        <div class="container-dishes__card-dish">
+          <div class="imgBox">
+            <img src="dist/img/soup.jpg" alt="dish1">
+          </div>
+          <div class="container-dishes__card-dish-details--header">
+            <h2>Soup Osteria della Bianca</h2>
+          </div>
+          <div class="container-dishes__card-dish-details--text">
+            
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos quis laboriosam consequatur accusantium reiciendis illum voluptatibus, est nesciunt temporibus! Nemo accusantium vero repellendus sapiente delectus praesentium, quisquam enim et!</p>
+         </div>
+        </div>
+  
+        <div class="container-dishes__card-dish">
+          <div class="imgBox">
+            <img src="dist/img/dish4.jpg" alt="dish1">
+          </div>
+          <div class="container-dishes__card-dish-details--header">
+            <h2>Oli Oli</h2>
+          </div>
+            <div class="container-dishes__card-dish-details--text"><ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos quis laboriosam consequatur accusantium reiciendis illum voluptatibus, est nesciunt temporibus! Nemo accusantium vero repellendus sapiente delectus praesentium, quisquam enim et!</p>
+           </div>       
+        </div>
+      </section> 
+      </section> 
+
+<!-- features -->
+
+<section class="features">
+  <div class="container">
+    <div class="section-name">features</div>
+
+    <div class="features__header">
+      <h2>Prominent features of our restaurant</h2>
+
+      <button class="features__text-button">
+        Read more
+
+        <i class="material-icons">trending_flat</i>
+      </button>
+    </div>
+
+    <div class="features__stays">
+      <a href="#" class="features__stay-card features__stay-card--col-2">
+        <img src="dist/img/hall2.jpg" alt="hall">
+        <div class="features__stay-card--details">
+          <div class="features__stay-card--name">Banquet Hall</div>
+          <div class="features__stay-card--price">Up to 300 persons..</div>
+       </div> 
+      </a>
+
+      <a href="#" class="features__stay-card">
+        <img src="dist/img/private.jpg" alt="Stay 4">
+       
+        <div class="features__stay-card--details">
+          <div class="features__stay-card--name">Cabinet particulier</div>
+          <div class="features__stay-card--price">Fireplace and natural flowers work best with daintith dishes! </div>
+       </div> 
+      </a>
+
+      <a href="#" class="features__stay-card">
+        <img src="dist/img/piano.jpg" alt="Stay 3">
+        <div class="features__stay-card--details">
+          <div class="features__stay-card--name">Live music</div>
+          <div class="features__stay-card--price">This is classic... This is classical music</div>
+       </div> 
+      </a>
+
+      <a href="#" class="features__stay-card">
+        <img src="dist/img/waiter2.jpg" alt="Stay 4">
+        <div class="features__stay-card--details">
+          <div class="features__stay-card--name">Feel comfortable</div>
+          <div class="features__stay-card--price">Professional service only</div>
+       </div> 
+      </a>
+
+      <a href="#" class="features__stay-card">
+        <img src="dist/img/wine.jpg" alt="Stay 2">
+        <div class="features__stay-card--details">
+          <div class="features__stay-card--name">Wine card</div>
+          <div class="features__stay-card--price">Wide list of wines</div>
+       </div> 
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+    <section class="about-us">
+      <div class="container">
+        <div class="section-name">about us</div>
+       
+        <div class="about-us__content">
+          <div class="about-us__content--left">
+            <h2>Alone we can do so little. Together we can do so much!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium assumenda voluptates enim consequuntur aspernatur omnis dolorem. Saepe, doloremque laudantium id fuga, iste nobis ipsam amet non ullam ipsum, laboriosam rerum. </p>
+            <img src="dist/img/pexels-rene-asmussen-4451364.jpg" alt="About us 1"> 
+         </div>
+          <div class="about-us__content--right">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat eum repudiandae laboriosam, accusantium non cum deleniti cumque ullam in mollitia esse! Ipsum dolores, officia ratione eum, natus nam quibusdam est inventore officiis aspernatur modi repellendus! Placeat nostrum provident mollitia eum molestias nisi amet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dicta beatae? Provident, hic totam. Nam facere praesentium nulla et ipsum quos minima inventore nostrum fugiat nobis rem ullam commodi ut reprehenderit possimus illum in ad, vitae eveniet tenetur!</p>
+            <img src="dist/img/pexels-rene-asmussen-2544830.jpg" alt="About us 2">
+          </div>
+        
+        </div>
+
+      </div>
+    </section> 
+    
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-name">testimonials</div>
+          <h2>What <strong>clients</strong>  say about us.</h2>
+
+          <div class="testimonials__feedback">
+            <div class="testimonials__feedback-card">
+              <div class="testimonials__feedback-card--dialog">
+                <div class="testimonials__feedback-card--dialog-title">Exquisite cuisine.</div>
+                <div class="testimonials__feedback-card--dialog-content">
+                  Phasellus ut elementum mauris. Quisque pharetra justo neque, in pulvinar nisl fringilla in. Duis molestie gravida enim. Cras fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                </div>
+              </div>
+
+              <div class="testimonials__feedback-card--user">
+
+                <img src="dist/img/person-1.png" alt="Person 1">
+                
+                <div class="testimonials__feedback-card--user-details">
+                  <div class="testimonials__feedback-card--user-name">Miller Stark</div>
+                  <div class="testimonials__feedback-card--user-location">from Finland</div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="testimonials__feedback-card">
+              <div class="testimonials__feedback-card--dialog">
+                <div class="testimonials__feedback-card--dialog-title">Very Delicious!</div>
+                <div class="testimonials__feedback-card--dialog-content">
+                  Phasellus ut elementum mauris. Quisque pharetra justo neque, in pulvinar nisl fringilla in. Duis molestie gravida enim. Cras fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                </div>
+              </div>
+              
+              <div class="testimonials__feedback-card--user">
+
+                <img src="dist/img/person-2.png" alt="Person 2">
+                
+                <div class="testimonials__feedback-card--user-details">
+                  <div class="testimonials__feedback-card--user-name">Zara Herman</div>
+                  <div class="testimonials__feedback-card--user-location">from Canada</div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="testimonials__feedback-card">
+              <div class="testimonials__feedback-card--dialog">
+                <div class="testimonials__feedback-card--dialog-title">Elegant and Original</div>
+                <div class="testimonials__feedback-card--dialog-content">
+                  Phasellus ut elementum mauris. Quisque pharetra justo neque, in pulvinar nisl fringilla in. Duis molestie gravida enim. Cras fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                </div>
+              </div>
+              
+              <div class="testimonials__feedback-card--user">
+
+                <img src="dist/img/person-3.png" alt="Person 3">
+                
+                <div class="testimonials__feedback-card--user-details">
+                  <div class="testimonials__feedback-card--user-name">Jackson Nguyen </div>
+                  <div class="testimonials__feedback-card--user-location">from Vietnam</div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+       Copyright&copy;2021 - Yana Kharlamova
+      </div>
+    </footer>
+
+   <script src="dist/js/main.js"></script>
+  </body>
+</html>

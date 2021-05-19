@@ -1,0 +1,426 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
+body {
+  box-sizing: border-box; }
+
+h2 {
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin: 0; }
+
+h3 {
+  font-family: "Italianno", cursive;
+  padding-top: 2rem;
+  font-size: 2.5rem; }
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+.container {
+  max-width: 120rem;
+  padding: 2.4rem;
+  margin: 0 auto; }
+
+strong {
+  color: #385094; }
+
+.main-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  max-inline-size: 620px;
+  margin: 3rem 0; }
+  .main-heading--dishes-section {
+    padding-bottom: 5rem;
+    margin-top: 0;
+    background-color: #f3f3f3;
+    text-align: center; }
+    .main-heading--dishes-section > h2 {
+      font-family: "Italianno", cursive; }
+  .main-heading p {
+    text-align: center;
+    margin: auto;
+    font-size: 2.6rem; }
+    @media (min-width: 720px) {
+      .main-heading p {
+        font-size: 5.6rem; } }
+  @media (min-width: 720px) {
+    .main-heading {
+      font-size: 5.2rem;
+      margin: 7rem 0;
+      max-inline-size: 500rem; } }
+  .main-heading--unvisible {
+    visibility: hidden; }
+
+.top-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out; }
+  .top-header .container {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem; }
+  .top-header--white-background {
+    background-color: #05041a;
+    box-shadow: 0px 0px 2rem rgba(73, 167, 255, 0.8); }
+    .top-header--white-background path {
+      fill: #385094;
+      transition: fill 300ms ease-in-out; }
+
+.section-name {
+  padding-top: 8rem;
+  padding-bottom: 3.5rem; }
+
+.section-name,
+.section-name--dishes {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  font-weight: 500;
+  font-size: 1.32rem; }
+  .section-name--dishes,
+  .section-name--dishes--dishes {
+    text-align: left;
+    padding: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 4rem; }
+    @media (min-width: 760px) {
+      .section-name--dishes,
+      .section-name--dishes--dishes {
+        padding: 5rem;
+        margin-left: 7rem; } }
+
+footer {
+  background-color: #c5c7ce;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 3rem;
+  color: #07051f; }
+
+.about-us p {
+  color: #828282;
+  margin: 0; }
+
+.about-us img {
+  border-radius: 8px;
+  width: 100%; }
+
+.about-us__content {
+  margin-top: 2.4rem;
+  display: grid;
+  gap: 4rem; }
+
+.about-us__content--left, .about-us__content--right {
+  display: grid;
+  gap: 2.4rem; }
+
+@media (min-width: 760px) {
+  .about-us {
+    font-size: 1.6rem; }
+    .about-us .about-us__content {
+      grid-template-columns: 1fr 1fr; }
+    .about-us .about-us__content--right img {
+      order: -1; } }
+
+.features {
+  background-color: rgba(229, 229, 231, 0.562); }
+  .features__header {
+    margin-top: 1.6rem; }
+  .features__text-button {
+    color: #385094;
+    display: flex;
+    align-items: center;
+    margin: 3rem 0; }
+    .features__text-button i {
+      margin-left: 1.2rem; }
+  .features__stays {
+    margin-top: 2.4rem;
+    display: grid;
+    gap: 4rem; }
+  .features__stay-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
+    transition: opacity 200ms ease-in-out; }
+  .features__stay-card {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    height: 38.2rem; }
+    .features__stay-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center; }
+    .features__stay-card:hover::before {
+      opacity: 0; }
+    .features__stay-card:hover .features__stay-card--name {
+      transform: translateX(calc(-200%)); }
+    .features__stay-card:hover .features__stay-card--price {
+      transform: translateX(calc(-200%)); }
+    .features__stay-card--details {
+      position: absolute;
+      bottom: 2.4rem;
+      left: 1.6rem; }
+    .features__stay-card--name {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 2.4rem;
+      margin-bottom: 1.2rem;
+      transition: transform 200ms ease-in-out; }
+    .features__stay-card--price {
+      font-weight: 500;
+      transition: transform 200ms ease-in-out 150ms; }
+  @media (min-width: 760px) {
+    .features {
+      font-size: 1.6rem; }
+      .features .features__stays {
+        grid-template-columns: 1fr 1fr; }
+      .features .features__stay-card--col-2 {
+        grid-column: 1 / span 2; } }
+  @media (min-width: 1200px) {
+    .features .features__stays {
+      grid-template-columns: 1fr 1fr 1fr; } }
+
+.container-dishes {
+  background-color: #f3f3f3;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .container-dishes__card-dish {
+    position: relative;
+    margin: 2rem 2rem;
+    width: 30rem;
+    height: 40rem;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    transition: 1s;
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.5); }
+    .container-dishes__card-dish:hover {
+      z-index: 1000;
+      transform: perspective(2000px) rotate(-10deg);
+      box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5); }
+    .container-dishes__card-dish:first-child:hover {
+      transform: perspective(2000px) rotate(10deg); }
+    .container-dishes__card-dish .imgBox {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      transform-origin: left;
+      z-index: 1;
+      transition: 1s; }
+      .container-dishes__card-dish .imgBox img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .container-dishes__card-dish:hover .imgBox {
+      transform: rotateY(-135deg); }
+    .container-dishes__card-dish:first-child .imgBox {
+      transform-origin: right; }
+    .container-dishes__card-dish:first-child:hover .imgBox {
+      transform: rotateY(135deg); }
+    .container-dishes__card-dish-details--header {
+      text-align: center; }
+    .container-dishes__card-dish-details--text {
+      margin-top: 27rem;
+      line-height: 2; }
+    .container-dishes__card-dish-details--header, .container-dishes__card-dish-details--text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      padding: 2rem;
+      font-family: "Playfair Display", serif; }
+    .container-dishes__card-dish:first-child .container-dishes__card-dish-details--text,
+    .container-dishes__card-dish:last-child .container-dishes__card-dish-details--text {
+      line-height: 3;
+      margin-top: 8rem;
+      margin-left: 2rem; }
+
+.restaurant-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/dist/img/background-header.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.6rem; }
+  .restaurant-area header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .restaurant-area__reservations {
+    background-color: #385094;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500; }
+    .restaurant-area__reservations i {
+      margin-right: 8px; }
+    @media (min-width: 720px) {
+      .restaurant-area__reservations {
+        padding: 1.2rem 2.4rem;
+        font-size: 1.4rem; } }
+  .restaurant-area__adventure-button {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin: auto; }
+    .restaurant-area__adventure-button i {
+      margin-left: 1.2rem;
+      padding: 1rem;
+      font-size: 2.5rem;
+      border: 1px solid white;
+      border-radius: 50%;
+      transition: all 200ms ease-in-out;
+      backface-visibility: hidden; }
+      .restaurant-area__adventure-button i:hover {
+        transform: scale(1.2); }
+      @media (min-width: 760px) {
+        .restaurant-area__adventure-button i {
+          font-size: 4rem; } }
+  .restaurant-area .booking-section {
+    margin: 11rem; }
+  .restaurant-area__booking {
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem; }
+    .restaurant-area__booking-inputs {
+      background-color: #fff;
+      color: #222;
+      padding: 2.4rem;
+      border-radius: 8px;
+      display: grid;
+      gap: 1.6rem; }
+      @media (max-width: 376px) {
+        .restaurant-area__booking-inputs {
+          width: 15rem;
+          margin: 5rem;
+          float: left;
+          margin: auto; } }
+    .restaurant-area__booking label {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: #385094;
+      font-weight: 500; }
+    .restaurant-area__booking-input input,
+    .restaurant-area__booking-input select {
+      display: block;
+      width: 100%;
+      border: none;
+      padding: 8px 0;
+      font-weight: 500;
+      cursor: pointer; }
+      @media (max-width: 375px) {
+        .restaurant-area__booking-input input,
+        .restaurant-area__booking-input select {
+          font-size: 1rem;
+          font-weight: bold; } }
+    .restaurant-area__booking-button {
+      background-color: #385094;
+      padding: 2rem;
+      border-radius: 8px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 1.2rem;
+      box-shadow: 0px 4px 2rem rgba(7, 49, 56, 0.6); }
+      @media (max-width: 376px) {
+        .restaurant-area__booking-button {
+          width: 15rem;
+          padding: 2rem; } }
+      @media (min-width: 760px) {
+        .restaurant-area__booking-button {
+          padding: 4rem; } }
+  @media (min-width: 760px) {
+    .restaurant-area .restaurant-area__booking-inputs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0; }
+    .restaurant-area .restaurant-area__booking-input {
+      padding: 0 2.4rem;
+      border-left: 1px solid #e0e0e0; }
+    .restaurant-area .restaurant-area__booking-input:first-child {
+      border: none;
+      padding-left: 0; }
+    .restaurant-area .restaurant-area__booking-input:last-child {
+      padding-right: 0; } }
+  @media (min-width: 1020px) {
+    .restaurant-area .restaurant-area__booking {
+      display: flex; }
+    .restaurant-area .restaurant-area__booking-button {
+      margin-top: 0;
+      margin-left: 1.2rem; } }
+
+.testimonials {
+  font-size: 1.6rem;
+  background-color: #f2f2f2; }
+  .testimonials__feedback {
+    margin-top: 7.4rem;
+    display: grid;
+    gap: 4rem; }
+    .testimonials__feedback-card--dialog {
+      background-color: white;
+      padding: 4rem 2.4rem;
+      border-radius: 2rem 2rem 2rem 0;
+      box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.05);
+      font-family: "Playfair Display", serif; }
+      .testimonials__feedback-card--dialog-title {
+        font-weight: 700;
+        margin-bottom: 1.6rem; }
+      .testimonials__feedback-card--dialog-content {
+        color: #4f4f4f;
+        line-height: 180%; }
+    .testimonials__feedback-card--user {
+      margin-top: 1.6rem;
+      display: grid;
+      grid-template-columns: 5.2rem 1fr;
+      gap: 1.6rem; }
+      .testimonials__feedback-card--user img {
+        width: 100%; }
+      .testimonials__feedback-card--user-name {
+        font-weight: 500; }
+      .testimonials__feedback-card--user-location {
+        color: #bdbdbd;
+        font-size: 1.2rem; }
+    @media (min-width: 760px) {
+      .testimonials__feedback {
+        grid-template-columns: repeat(3, 1fr); } }

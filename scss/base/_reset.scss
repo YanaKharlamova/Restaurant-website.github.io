@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: $heading-font;
+  font-weight: 700;
+  margin: 0;
+}
+h3 {
+  font-family: "Italianno", cursive;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+}
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

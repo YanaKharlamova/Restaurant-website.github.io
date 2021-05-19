@@ -1,0 +1,48 @@
+.testimonials {
+  font-size: 1.6rem;
+  background-color: #f2f2f2;
+
+  &__feedback {
+    margin-top: $space-2xl;
+    display: grid;
+    gap: $space-xl;
+    &-card {
+      &--dialog {
+        background-color: white;
+        padding: $space-xl $space-lg;
+
+        border-radius: 2rem 2rem 2rem 0;
+        box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.05);
+        font-family: $heading-font;
+        &-title {
+          font-weight: 700;
+          margin-bottom: $space-md;
+        }
+        &-content {
+          color: #4f4f4f;
+          line-height: 180%;
+        }
+      }
+      &--user {
+        margin-top: $space-md;
+        display: grid;
+        grid-template-columns: 5.2rem 1fr;
+        gap: $space-md;
+        img {
+          width: 100%;
+        }
+        &-name {
+          font-weight: 500;
+        }
+        &-location {
+          color: #bdbdbd;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    @media (min-width: 760px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
