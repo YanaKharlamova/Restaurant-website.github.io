@@ -21,3 +21,16 @@ Live version:
 ## Application Sass structure:
 ![](screenshots/sass.PNG)
 ## Installing
+In order to run this code, run this commands in your project terminal:
+**1)** `npm install` - to install project dependencies in the local node_modules folder;
+**2)** `npm run sass` - to run the project.
+## Screenshots:
+**1.**
+
+![](screenshot/confectionaryImg1.PNG)
+**2.**
+
+![](screenshot/confectionaryImg1.PNG)
+**3.**
+
+![](screenshot/confectionaryImg1.PNG)
