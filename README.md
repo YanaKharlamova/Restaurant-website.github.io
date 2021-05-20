@@ -10,7 +10,6 @@ Live version:
 * animated details (buttons, virtual menu, features` section cards);
 * separated area-blocks with different useful information;
 * responsive design for large, medium, small devices.
-
 ## Built with:
 * HTML
 * CSS
@@ -18,4 +17,7 @@ Live version:
 * JS
 * BEM
 
-  "7-1" pattern was also used
+  "7-1" pattern was also used  
+## Application Sass structure:
+![](screenshots/sass.PNG)
+## Installing
