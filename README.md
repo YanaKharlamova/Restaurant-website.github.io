@@ -27,10 +27,22 @@ In order to run this code, run this commands in your project terminal:
 ## Screenshots:
 **1.**
 
-![](screenshot/confectionaryImg1.PNG)
+![](screenshots/screenshot1.PNG)
 **2.**
 
-![](screenshot/confectionaryImg1.PNG)
+![](screenshots/screenshot2.PNG)
 **3.**
 
-![](screenshot/confectionaryImg1.PNG)
+![](screenshots/screenshot3.PNG)
+**4.**
+
+![](screenshots/screenshot4.PNG)
+**5.**
+
+![](screenshots/screenshot5.PNG)
+**6.**
+
+![](screenshots/screenshot6.PNG)
+**7.**
+
+![](screenshots/screenshot7.PNG)
