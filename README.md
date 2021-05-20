@@ -17,4 +17,5 @@ Live version:
 * SCSS
 * JS
 * BEM
+
   "7-1" pattern was also used
