@@ -39,10 +39,10 @@ In order to run this code, run this commands in your project terminal:
 ![](screenshots/screenshot4.PNG)
 **5.**
 
-![](screenshots/screenshot5.PNG)
+![](screenshots/screenshot6.PNG)
 **6.**
 
-![](screenshots/screenshot6.PNG)
+![](screenshots/screenshot5.PNG)
 **7.**
 
 ![](screenshots/screenshot7.PNG)
